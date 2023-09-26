@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-widht, iniciale-scale=1.0" />
+        <title>Ахметова Карина</title>
+      
+    </head>
+<body>
+    <script>
+        
+            let x = parseFloat(prompt("Введите значение x:"));
+            var y;
+
+            if (x <= 0 && x !== -10) {
+                y = Math.pow(x,2);} 
+                else if (x >1) {
+                y = Math.sqrt(Math.abs(x+1));} 
+                else {
+                y = (1/x);}
+            var res = y;
+
+            const img = document.createElement("img");
+                img.src = "lab2.png";
+                 document.body.appendChild(img);
+                
+        document.write("<br><br>","y="+res.toFixed(2),"</b>");
+        document.write("<br><br>Ахметова К.Р. 0216");
+    </script>
+</body>
+</html>
